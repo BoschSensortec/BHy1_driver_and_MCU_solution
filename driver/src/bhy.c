@@ -13,18 +13,18 @@
 ****************************************************************************
 * Redistribution and use in source and binary forms, with or without
 * modification, are permitted provided that the following conditions are met:
-* 
+*
 * Redistributions of source code must retain the above copyright
 * notice, this list of conditions and the following disclaimer.
-* 
+*
 * Redistributions in binary form must reproduce the above copyright
 * notice, this list of conditions and the following disclaimer in the
 * documentation and/or other materials provided with the distribution.
-* 
+*
 * Neither the name of the copyright holder nor the names of the
 * contributors may be used to endorse or promote products derived from
 * this software without specific prior written permission.
-* 
+*
 * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
 * CONTRIBUTORS "AS IS" AND ANY EXPRESS OR
 * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
@@ -40,7 +40,7 @@
 * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 * ANY WAY OUT OF THE USE OF THIS
 * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
-* 
+*
 * The information provided is believed to be accurate and reliable.
 * The copyright holder assumes no responsibility
 * for the consequences of use
@@ -3535,26 +3535,26 @@ struct mag_physical_status_t *mag_status)
  *  BHY_PARAMETER_REQUEST_READ_PARAMETER_4   | 0x04  | Gyroscope
  *  BHY_PARAMETER_REQUEST_READ_PARAMETER_5   | 0x05  | Light
  *  BHY_PARAMETER_REQUEST_READ_PARAMETER_6   | 0x06  | Barometer
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_7   | 0x87  | Temperature
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_8   | 0x88  | Proximity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_9   | 0x89  | Gravity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_10  | 0x8A  | Liner accel
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_11  | 0x8B  | Rotation vector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_12  | 0x8C  | Humidity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_13  | 0x8D  | Ambient Temperature
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_14  | 0x8E  | Uncalibrated Mag
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_15  | 0x8F  | Game rotation Vector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_16  | 0x90  | Uncalibrated Gyro
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_17  | 0x91  | Signification Motion
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_18  | 0x92  | Step detector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_19  | 0x93  | Step Counter
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_20  | 0x94  | Geomagnetic
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_21  | 0x95  | Heart Rate
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_22  | 0x96  | Tilt Detector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_23  | 0x97  | Wakeup Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_24  | 0x98  | Glance Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_25  | 0x99  | Pickup Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_31  | 0x9F  | Activity
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_7   | 0x07  | Temperature
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_8   | 0x08  | Proximity
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_9   | 0x09  | Gravity
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_10  | 0x0A  | Liner accel
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_11  | 0x0B  | Rotation vector
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_12  | 0x0C  | Humidity
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_13  | 0x0D  | Ambient Temperature
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_14  | 0x0E  | Uncalibrated Mag
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_15  | 0x0F  | Game rotation Vector
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_16  | 0x10  | Uncalibrated Gyro
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_17  | 0x11  | Signification Motion
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_18  | 0x12  | Step detector
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_19  | 0x13  | Step Counter
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_20  | 0x14  | Geomagnetic
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_21  | 0x15  | Heart Rate
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_22  | 0x16  | Tilt Detector
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_23  | 0x17  | Wakeup Gesture
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_24  | 0x18  | Glance Gesture
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_25  | 0x19  | Pickup Gesture
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_31  | 0x1F  | Activity
  *
  *  @param sensor_information :
  *  holds the value of non wakeup sensor information
@@ -3623,32 +3623,32 @@ struct sensor_information_non_wakeup_t *sensor_information)
  *  Value desired parameter to read non wakeup sensor information
  *   param_request                   | value | Virtual sensor
  * ----------------------------------|-------|----------------
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_33  | 0xA1  | Accelerometer
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_34  | 0xA2  | Magnetometer
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_35  | 0xA3  | Orientation
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_36  | 0xA4  | Gyroscope
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_37  | 0xA5  | Light
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_38  | 0xA6  | Barometer
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_39  | 0xA7  | Temperature
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_40  | 0xA8  | Proximity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_41  | 0xA9  | Gravity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_42  | 0xAA  | Liner accel
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_43  | 0xAB  | Rotation vector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_44  | 0xAC  | Humidity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_45  | 0xAD  | Ambient Temperature
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_46  | 0xAE  | Uncalibrated Mag
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_47  | 0xAF  | Game rotation Vector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_48  | 0xB0  | Uncalibrated Gyro
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_49  | 0xB1  | Signification Motion
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_50  | 0xB2  | Step detector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_51  | 0xB3  | Step Counter
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_52  | 0xB4  | Geomagnetic
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_53  | 0xB5  | Heart Rate
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_54  | 0xB6  | Tilt Detector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_55  | 0xB7  | Wakeup Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_56  | 0xB8  | Glance Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_57  | 0xB9  | Pickup Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_63  | 0xBF  | Activity
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_33  | 0x21  | Accelerometer
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_34  | 0x22  | Magnetometer
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_35  | 0x23  | Orientation
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_36  | 0x24  | Gyroscope
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_37  | 0x25  | Light
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_38  | 0x26  | Barometer
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_39  | 0x27  | Temperature
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_40  | 0x28  | Proximity
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_41  | 0x29  | Gravity
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_42  | 0x2A  | Liner accel
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_43  | 0x2B  | Rotation vector
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_44  | 0x2C  | Humidity
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_45  | 0x2D  | Ambient Temperature
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_46  | 0x2E  | Uncalibrated Mag
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_47  | 0x2F  | Game rotation Vector
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_48  | 0x30  | Uncalibrated Gyro
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_49  | 0x31  | Signification Motion
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_50  | 0x32  | Step detector
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_51  | 0x33  | Step Counter
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_52  | 0x34  | Geomagnetic
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_53  | 0x35  | Heart Rate
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_54  | 0x36  | Tilt Detector
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_55  | 0x37  | Wakeup Gesture
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_56  | 0x38  | Glance Gesture
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_57  | 0x39  | Pickup Gesture
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_63  | 0x3F  | Activity
  *
  *  @param sensor_information :
  *  holds the value of non wakeup sensor information
@@ -3718,32 +3718,32 @@ struct sensor_information_wakeup_t *sensor_information)
  *  @param v_parameter_request_u8: value of selected parameter request
  *   param_request                   | value | Virtual sensor
  * ----------------------------------|-------|----------------
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_65  | 0xC1  | Accelerometer
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_66  | 0xC2  | Magnetometer
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_67  | 0xC3  | Orientation
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_68  | 0xC4  | Gyroscope
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_69  | 0xC5  | Light
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_70  | 0xC6  | Barometer
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_71  | 0xC7  | Temperature
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_72  | 0xC8  | Proximity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_73  | 0xC9  | Gravity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_74  | 0xCA  | Liner accel
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_75  | 0xCB  | Rotation vector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_76  | 0xCC  | Humidity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_77  | 0xCD  | Ambient Temperature
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_78  | 0xCE  | Uncalibrated Mag
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_79  | 0xCF  | Game rotation Vector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_80  | 0xD0  | Uncalibrated Gyro
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_81  | 0xD1  | Signification Motion
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_82  | 0xD2  | Step detector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_83  | 0xD3  | Step Counter
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_84  | 0xD4  | Geomagnetic
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_85  | 0xD5  | Heart Rate
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_86  | 0xD6  | Tilt Detector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_87  | 0xD7  | Wakeup Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_88  | 0xD8  | Glance Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_89  | 0xD9  | Pickup Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_95  | 0xDF  | Activity
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_65  | 0xC1  | Accelerometer
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_66  | 0xC2  | Magnetometer
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_67  | 0xC3  | Orientation
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_68  | 0xC4  | Gyroscope
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_69  | 0xC5  | Light
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_70  | 0xC6  | Barometer
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_71  | 0xC7  | Temperature
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_72  | 0xC8  | Proximity
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_73  | 0xC9  | Gravity
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_74  | 0xCA  | Liner accel
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_75  | 0xCB  | Rotation vector
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_76  | 0xCC  | Humidity
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_77  | 0xCD  | Ambient Temperature
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_78  | 0xCE  | Uncalibrated Mag
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_79  | 0xCF  | Game rotation Vector
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_80  | 0xD0  | Uncalibrated Gyro
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_81  | 0xD1  | Signification Motion
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_82  | 0xD2  | Step detector
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_83  | 0xD3  | Step Counter
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_84  | 0xD4  | Geomagnetic
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_85  | 0xD5  | Heart Rate
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_86  | 0xD6  | Tilt Detector
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_87  | 0xD7  | Wakeup Gesture
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_88  | 0xD8  | Glance Gesture
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_89  | 0xD9  | Pickup Gesture
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_95  | 0xDF  | Activity
  *
  *  @return results of bus communication function
  *  @retval 0 -> Success
@@ -3806,32 +3806,32 @@ u8 v_parameter_request_u8)
  *  @param v_parameter_request_u8: value of selected parameter request
  *   param_request                   | value | Virtual sensor
  * ----------------------------------|-------|----------------
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_65  | 0xC1  | Accelerometer
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_66  | 0xC2  | Magnetometer
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_67  | 0xC3  | Orientation
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_68  | 0xC4  | Gyroscope
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_69  | 0xC5  | Light
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_70  | 0xC6  | Barometer
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_71  | 0xC7  | Temperature
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_72  | 0xC8  | Proximity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_73  | 0xC9  | Gravity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_74  | 0xCA  | Liner accel
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_75  | 0xCB  | Rotation vector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_76  | 0xCC  | Humidity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_77  | 0xCD  | Ambient Temperature
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_78  | 0xCE  | Uncalibrated Mag
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_79  | 0xCF  | Game rotation Vector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_80  | 0xD0  | Uncalibrated Gyro
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_81  | 0xD1  | Signification Motion
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_82  | 0xD2  | Step detector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_83  | 0xD3  | Step Counter
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_84  | 0xD4  | Geomagnetic
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_85  | 0xD5  | Heart Rate
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_86  | 0xD6  | Tilt Detector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_87  | 0xD7  | Wakeup Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_88  | 0xD8  | Glance Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_89  | 0xD9  | Pickup Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_95  | 0xDF  | Activity
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_65  | 0x41  | Accelerometer
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_66  | 0x42  | Magnetometer
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_67  | 0x43  | Orientation
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_68  | 0x44  | Gyroscope
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_69  | 0x45  | Light
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_70  | 0x46  | Barometer
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_71  | 0x47  | Temperature
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_72  | 0x48  | Proximity
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_73  | 0x49  | Gravity
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_74  | 0x4A  | Liner accel
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_75  | 0x4B  | Rotation vector
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_76  | 0x4C  | Humidity
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_77  | 0x4D  | Ambient Temperature
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_78  | 0x4E  | Uncalibrated Mag
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_79  | 0x4F  | Game rotation Vector
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_80  | 0x50  | Uncalibrated Gyro
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_81  | 0x51  | Signification Motion
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_82  | 0x52  | Step detector
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_83  | 0x53  | Step Counter
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_84  | 0x54  | Geomagnetic
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_85  | 0x55  | Heart Rate
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_86  | 0x56  | Tilt Detector
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_87  | 0x57  | Wakeup Gesture
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_88  | 0x58  | Glance Gesture
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_89  | 0x59  | Pickup Gesture
+ *  BHY_PARAMETER_REQUEST_READ_PARAMETER_95  | 0x5F  | Activity
  *
  *  @return results of bus communication function
  *  @retval 0 -> Success
@@ -3878,32 +3878,32 @@ u16 *v_change_sensitivity_u16, u16 *v_dynamic_range_u16)
  *  @param v_parameter_request_u8: value of selected parameter request
  *   param_request                    | value | Virtual sensor
  * -----------------------------------|-------|----------------
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_97   | 0xE1  | Accelerometer
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_98   | 0xE2  | Magnetometer
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_99   | 0xE3  | Orientation
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_100  | 0xE4  | Gyroscope
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_101  | 0xE5  | Light
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_102  | 0xE6  | Barometer
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_103  | 0xE7  | Temperature
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_104  | 0xE8  | Proximity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_105  | 0xE9  | Gravity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_106  | 0xEA  | Liner accel
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_107  | 0xEB  | Rotation vector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_108  | 0xEC  | Humidity
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_109  | 0xED  | Ambient Temperature
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_110  | 0xEE  | Uncalibrated Mag
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_111  | 0xEF  | Game rotation Vector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_112  | 0xF0  | Uncalibrated Gyro
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_113  | 0xF1  | Signification Motion
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_114  | 0xF2  | Step detector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_115  | 0xF3  | Step Counter
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_116  | 0xF4  | Geomagnetic
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_117  | 0xF5  | Heart Rate
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_118  | 0xF6  | Tilt Detector
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_119  | 0xF7  | Wakeup Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_120  | 0xF8  | Glance Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_121  | 0xF9  | Pickup Gesture
- *  BHY_PARAMETER_REQUEST_READ_PARAMETER_127  | 0xFF  | Activity
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_97   | 0xE1  | Accelerometer
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_98   | 0xE2  | Magnetometer
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_99   | 0xE3  | Orientation
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_100  | 0xE4  | Gyroscope
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_101  | 0xE5  | Light
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_102  | 0xE6  | Barometer
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_103  | 0xE7  | Temperature
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_104  | 0xE8  | Proximity
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_105  | 0xE9  | Gravity
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_106  | 0xEA  | Liner accel
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_107  | 0xEB  | Rotation vector
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_108  | 0xEC  | Humidity
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_109  | 0xED  | Ambient Temperature
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_110  | 0xEE  | Uncalibrated Mag
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_111  | 0xEF  | Game rotation Vector
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_112  | 0xF0  | Uncalibrated Gyro
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_113  | 0xF1  | Signification Motion
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_114  | 0xF2  | Step detector
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_115  | 0xF3  | Step Counter
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_116  | 0xF4  | Geomagnetic
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_117  | 0xF5  | Heart Rate
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_118  | 0xF6  | Tilt Detector
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_119  | 0xF7  | Wakeup Gesture
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_120  | 0xF8  | Glance Gesture
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_121  | 0xF9  | Pickup Gesture
+ *  BHY_PARAMETER_REQUEST_WRITE_PARAMETER_127  | 0xFF  | Activity
  *
  *
  *  @return results of bus communication function
